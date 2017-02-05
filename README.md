@@ -27,9 +27,9 @@ A complier of a programming language which is similar to c language
 	running "make" to compile the project,then you can find g-- and t-- in directory "Test".
 	changing the directory to Test,you can use the following command:
 		./g-- inputfile [-o outputfile] 
-	(it's used to generate the intermediate code.if you want to see grammer tree ,you can add the "-d" option.AND i	f want to specify the name of outputfile("a.tem"default),you can add the "-o filename" option.)
+	(it's used to generate the intermediate code.if you want to see grammer tree ,you can add the "-d" option.AND i		f want to specify the name of outputfile("a.tem"default),you can add the "-o filename" option.)
 		./t-- inputfile [-o outputfile]
-	(it's used to convert the intermediate code to object code,using "-o filename" to specify the name of outputfil	e("a.out"default).)
-	But if you want to generate the object code directly by using g--,you can use "-d 1" option.For example:./g-- i	nputfile -d 1.In this case,the default name of object file is "a.tem".
+	(it's used to convert the intermediate code to object code,using "-o filename" to specify the name of outputfil		e("a.out"default).)
+	But if you want to generate the object code directly by using g--,you can use "-d 1" option.For example:./g-- i		nputfile -d 1.In this case,the default name of object file is "a.tem".
 	
 	
